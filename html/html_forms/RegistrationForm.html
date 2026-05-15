@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <fieldset style="width: fit-content;border: 3px solid navy;">
+        <legend style="font-size: 50px;font-weight: bold;text-align: center;color: navy;">Registration Form</legend>
+        <br>
+        <form action="">
+            <input type="text" name="firstName" id="first_name_inputbox"placeholder="FirstName"required autofocus  style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+            <br><br>
+            <input type="text" name="lastName" id="last_name_inputbox"placeholder="LastName" style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+            <br><br>
+            <input type="number" name="adhaarcardNumber" id="adhaarcardNumber_input_box"value="575517302757" style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+            <br><br>
+            <input type="text" name="pancardNumber" id="pancardNumber_input_box"value="AIGPW3292G" style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+            <br><br>
+            <input type="text"minlength="1"maxlength="1"style="width: 25px;height:50px;font-size 50px;text-align:center;background-color:lightgray;outline:none;border:none;">
+            <input type="text"minlength="1"maxlength="1"style="width: 25px;height:50px;font-size 50px;text-align:center;background-color:lightgray;outline:none;border:none;">
+            <input type="text"minlength="1"maxlength="1"style="width: 25px;height:50px;font-size 50px;text-align:center;background-color:lightgray;outline:none;border:none;">
+            <input type="text"minlength="1"maxlength="1"style="width: 25px;height:50px;font-size 50px;text-align:center;background-color:lightgray;outline:none;border:none;">
+            <input type="text"minlength="1"maxlength="1"style="width: 25px;height:50px;font-size 50px;text-align:center;background-color:lightgray;outline:none;border:none;">
+            <input type="text"minlength="1"maxlength="1"style="width: 25px;height:50px;font-size 50px;text-align:center;background-color:lightgray;outline:none;border:none;">
+            <br><br>
+            <input type="button" value="ValidateOTP" style="width: 100px;height: 25px;border: none;outline: none;font-size: 15px;font-weight: bold;background-color: navy;color: white;border-radius: 10px;">
+            <br><br>
+            <input type="number"name="age"id="age_inputbox"placeholder="Age"min=21 max="32" style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+            <br><br>
+            <input type="date"name="date"id="date_inputbox"placeholder="date" min="2026-05-04"max="2026-05-09" style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+            <br><br>
+            <input type="time"name="time"id=time_inputfields min="6:00"max="18:00" style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+            <br><br>
+            <select name="city" id="city_drop_down_list" style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+                <option>Select City--</option>
+                <optgroup label="Maharashtra">
+                    <option >Pune</option>
+                    <option >Mumbai</option>
+                    <option >Maharashtra</option>
+                </optgroup>
+                    <optgroup label="Gujarat">
+                    <option >Surat</option>
+                    <option >Gandhinagar</option>
+                    <option >Ahemdabad</option>
+                </optgroup>
+                    <optgroup label="Karnataka">
+                    <option >Bengaluru</option>
+                    <option >Mysuru</option>
+                    <option >Raichur</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <input type="text" name="state" id="state_inputbox" list="state_data_list" placeholder="Enter  state" style="font-size: 20px;background-color: lightgray;border: none;outline: none;width: 250px;height: 45px;border-radius: 10px;">
+            <datalist id="state_data_list">
+                <option>Maharashtra</option>
+                <option>Gujarat</option>
+                <option>TamilNadu</option>
+                <option>Keralam</option>
+                <option>Karnataka</option>
+                <option>AndhraPradesh</option>
+                <option>Telangana</option>
+                <option>Punjab</option>
+            </datalist>
+            <br><br>
+            <textarea name="residentialAddress" id="address_text_area" style="width:200px;height:100px;outline: none;border: none;font-size: 15px;font-weight: bold;border-radius: 10px;background-color: lightgray;resize: none;" placeholder="Residential Address"></textarea>
+            <br><br>
+            <input type="submit" value="Register" style="background-color:green;color: white;font-size: 25px;outline: none;border: none;">
+            <input type="reset" value="Cancel" style="background-color:red;color: white;font-size: 25px;outline: none;border: none;">
+
+
+
+        </form>
+    </fieldset>
+</body>
+</html>

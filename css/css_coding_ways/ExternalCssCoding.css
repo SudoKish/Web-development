@@ -1,0 +1,17 @@
+/* Stylesheet refers to external CSS file */
+/* 
+css rule sets definition:
+selector{
+    css-property:css-property-value;
+    css-property:css-property-value;
+}
+*/
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color: lightgray;
+    color: navy;
+    text-align: center;
+    box-shadow: inset 0px 0px 15px gray, inset 0px 0px 10px gray, inset 0px 0px 5px gray,  0px 0px 5px black;
+
+} 
