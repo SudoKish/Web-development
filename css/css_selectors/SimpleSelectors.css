@@ -1,9 +1,48 @@
 /* 
-css rule set definition
+css rule set definition::
+selector{
+    css-property:css-property-value,
+    css-property:css-property-value,
 */
 
 /* universal selector (*) */
 *{
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+}
+
+/* element selector(tagname) */
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+}
+p{
+    color: navy;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+button{
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+/* id selector(#) */
+#subscribe_button{
+    width: 250px;
+    background-color: red;
+    border-radius: 50px;
+
+}
+#follow_button{
+    width: 200px;
+    background-color: royalblue;
+    border-radius: 15px;
+
 }
